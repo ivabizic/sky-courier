@@ -1,0 +1,28 @@
+# Normalize line endings
+* text=auto eol=lf
+
+# Source code
+*.rs text
+*.toml text
+*.json text
+*.yaml text
+*.yml text
+*.md text
+*.sh text
+
+# Windows scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.pdf binary
+*.zip binary
+*.gz binary
+*.woff2 binary
+*.wasm binary
