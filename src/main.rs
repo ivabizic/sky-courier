@@ -1,3 +1,11 @@
+use bevy::prelude::*;
+
+mod city;
+mod shared;
+
 fn main() {
-    println!("Hello, world!");
+    App::new()
+        .add_plugins(DefaultPlugins)
+        .add_plugins(city::CityPlugin)
+        .run();
 }
