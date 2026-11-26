@@ -37,10 +37,12 @@ fn spawn_debug_scene(
     mut meshes: ResMut<Assets<Mesh>>,
     mut materials: ResMut<Assets<StandardMaterial>>,
 ) {
+    /*
     commands.spawn((
         Camera3d::default(),
         Transform::from_xyz(0.0, 25.0, 30.0).looking_at(Vec3::ZERO, Vec3::Y),
     ));
+     */
     commands.spawn((
         DirectionalLight {
             shadow_maps_enabled: true,
