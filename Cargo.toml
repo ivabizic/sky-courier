@@ -2,14 +2,13 @@
 name = "sky_courier"
 version = "0.1.0"
 edition = "2024"
+rust-version = "1.97.1"
 
 [dependencies]
-bevy = "0.20"
+bevy = { version = "0.20", optional = true }
 
 [profile.dev]
 opt-level = 1
 
 [profile.dev.package."*"]
 opt-level = 3
-
-# the opt levels are used to run the game faster
